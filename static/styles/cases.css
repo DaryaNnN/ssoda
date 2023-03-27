@@ -1,0 +1,78 @@
+header {
+  height: 150px;
+}
+
+.rus-text {
+  font-size: 39px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.title-cases {
+  width: 250px;
+  left: 100px;
+}
+
+.cases__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.cases__description::before {
+  content: "";
+  background: url(../images/cases_corner.svg);
+  position: absolute;
+  display: block;
+  top: -21px;
+  left: -38px;
+  width: 54px;
+  height: 36px;
+  color: #fff;
+  z-index: 999;
+}
+
+.cases__description::after {
+  content: "";
+  background: url(../images/cases_corner.svg);
+  position: absolute;
+  display: block;
+  top: 100px;
+  right: 70px;
+  width: 54px;
+  height: 36px;
+  color: #fff;
+  transform: rotate(180deg);
+  z-index: 999;
+}
+
+.cases__description {
+  width: 75%;
+  position: relative;
+}
+
+.cases__bottom {
+  margin-left: 100px;
+  width: 60%;
+}
+
+.cases__list-item {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.cases__text {
+  margin-bottom: 30px;
+}
+
+.vector {
+  position: absolute;
+  right: 0px;
+  top: 130px;
+}
+
+.vector-img {
+  height: 1000px;
+}

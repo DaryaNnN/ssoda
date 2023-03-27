@@ -1,0 +1,47 @@
+.title-requests {
+  left: 400px;
+  width: 330px;
+}
+
+.requests__blocks {
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rus-text {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.requests__text {
+  margin-bottom: 40px;
+}
+
+.requests__list-item {
+  margin-left: 50px;
+}
+
+.requests__left {
+  width: 50%;
+  height: 100%;
+  margin-left: 50px;
+}
+
+.requests__right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.figure__text {
+  width: 70%;
+}
+
+.figures {
+  height: 300px;
+}

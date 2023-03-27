@@ -1,0 +1,165 @@
+header {
+  height: 180px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a::after {
+  text-decoration: none;
+  color: white;
+}
+
+.title-definition {
+  width: 330px;
+  right: 600px;
+}
+
+.rus-text {
+  font-size: 36px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.definition__text {
+  display: flex;
+  width: 900px;
+  height: 500px;
+  margin-left: 80px;
+}
+
+.wrapper {
+  height: 1000px;
+}
+
+.switches__img--one {
+  opacity: 0.4;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(540deg);
+  }
+}
+
+@keyframes rotates {
+  0% {
+    transform: rotate(-180deg);
+  }
+  50% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(-540deg);
+  }
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a::after {
+  text-decoration: none;
+  color: white;
+}
+
+.title-definition {
+  width: 330px;
+  right: 600px;
+}
+
+.rus-text {
+  font-size: 42px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.definition__text {
+  display: flex;
+  width: 900px;
+  height: 500px;
+  margin-left: 80px;
+}
+
+.wrapper {
+  height: 1000px;
+}
+
+.switches__img--one {
+  opacity: 0.4;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(540deg);
+  }
+}
+
+@keyframes rotates {
+  0% {
+    transform: rotate(-180deg);
+  }
+  50% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(-540deg);
+  }
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.circle--one {
+  position: absolute;
+  right: 170px;
+  bottom: -280px;
+  animation: rotates linear 90s infinite;
+}
+
+.circle--two {
+  position: absolute;
+  right: -220px;
+  bottom: -100px;
+  animation: rotate linear 90s infinite;
+}
+
+.line {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  top: 66px;
+  animation: line ease-out 4s;
+}

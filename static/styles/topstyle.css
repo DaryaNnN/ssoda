@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Literata:wght@200&display=swap");
+
+body {
+  min-height: 100vh;
+  background-color: black;
+  overflow-x: hidden;
+  /*  overflow-y: hidden;  */
+  transition: background-color 1s;
+}
+
+.en-text {
+  font-family: Italiana, serif;
+  font-style: normal;
+  font-size: 69px;
+  color: white;
+}
+
+.rus-text {
+  font-family: Literata, serif;
+  font-weight: 100;
+  color: white;
+}
+
+header {
+  height: 180px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a::after {
+  text-decoration: none;
+  color: white;
+}
+
+.en-text__title {
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  margin-top: 0;
+  background-color: black;
+}
+
+.switches__img--one {
+  position: fixed;
+  bottom: 50px;
+  left: 80px;
+  transform: rotate(180deg);
+}
+
+.switches__img--two {
+  position: fixed;
+  bottom: 50px;
+  left: 140px;
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.line {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  top: 66px;
+  animation: line ease-out 4s;
+}

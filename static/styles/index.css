@@ -1,0 +1,228 @@
+#body {
+  background-color: black;
+  color: #ffffff;
+  overflow-x: hidden;
+
+  overflow-y: hidden;
+  transition: background-color 1s;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.svgs {
+  position: relative;
+  color: orange;
+} /*класс векторов для position*/
+
+#line {
+  stroke-dasharray: 9730;
+  stroke-dashoffset: 9730;
+  animation-fill-mode: forwards;
+} /*главный вектор*/
+.vector_front {
+  position: absolute;
+  top: 10px;
+}
+#line_dei {
+  position: absolute;
+  animation-fill-mode: forwards;
+  stroke-dasharray: 4793;
+  stroke-dashoffset: 4793;
+} /*definition вектор*/
+.vector_dei {
+  position: absolute;
+  top: 43px;
+  left: 52px;
+}
+#line_com {
+  position: absolute;
+  stroke-dasharray: 4166;
+  stroke-dashoffset: 4166;
+  animation-fill-mode: forwards;
+}
+.vector_com {
+  position: absolute;
+  top: 43px;
+  left: 134px;
+}
+#line_case {
+  position: absolute;
+  stroke-dasharray: 4576;
+  stroke-dashoffset: 4576;
+  animation-fill-mode: forwards;
+}
+.vector_case {
+  position: absolute;
+  top: 43px;
+  left: 80px;
+}
+#line_req {
+  stroke-dasharray: 4300;
+  stroke-dashoffset: 4300;
+  animation-fill-mode: forwards;
+}
+.vector_req {
+  position: absolute;
+  top: 43px;
+  left: 135px;
+}
+#line_sp {
+  position: absolute;
+  stroke-dasharray: 4521;
+  stroke-dashoffset: 4521;
+  animation-fill-mode: forwards;
+}
+.vector_sp {
+  position: absolute;
+  top: 43px;
+  left: 135px;
+}
+
+/*кнопки*/
+#startBtn {
+  position: absolute;
+  width: 271px;
+  height: 85px;
+  left: 658px;
+  top: 646px;
+
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 85px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: transparent;
+  background-color: transparent;
+}
+#definition {
+  position: absolute;
+  width: 198px;
+  height: 60px;
+  left: 770px;
+  top: 1465px;
+
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 60px;
+
+  border: transparent;
+  background-color: transparent;
+
+  color: #000000;
+
+  transition: color ease 2s;
+}
+#comparison {
+  position: absolute;
+  width: 256px;
+  height: 60px;
+  left: 829px;
+  top: 1565px;
+
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 60px;
+  /* identical to box height */
+
+  color: #000000;
+
+  transition: color ease 2s;
+
+  border: transparent;
+  background-color: transparent;
+}
+#case {
+  position: absolute;
+  width: 126px;
+  height: 60px;
+  left: 880px;
+  top: 1670px;
+
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 60px;
+  /* identical to box height */
+
+  color: #000000;
+
+  transition: color ease 2s;
+
+  border: transparent;
+  background-color: transparent;
+}
+#request {
+  position: absolute;
+  width: 196px;
+  height: 60px;
+  left: 932px;
+  top: 1774px;
+
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 60px;
+  /* identical to box height */
+
+  color: #000000;
+
+  transition: color ease 2s;
+
+  border: transparent;
+  background-color: transparent;
+}
+#sphere {
+  position: absolute;
+  width: 147px;
+  height: 60px;
+  left: 986px;
+  top: 1873px;
+
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 60px;
+  /* identical to box height */
+
+  color: #000000;
+
+  transition: color ease 2s;
+
+  border: transparent;
+  background-color: transparent;
+}
+#slogan_90 {
+  position: absolute;
+  width: 300px;
+  height: 53px;
+  left: 1250px;
+  top: 450px;
+  color: #000000;
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53px;
+
+  transform: rotate(90deg);
+  transition: color ease 1s;
+
+  border: transparent;
+  background-color: transparent;
+}

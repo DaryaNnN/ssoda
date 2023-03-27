@@ -1,0 +1,74 @@
+header {
+  height: 180px;
+}
+
+.title {
+  position: absolute;
+  right: 600px;
+  top: 25px;
+}
+
+.title-comparison {
+  width: 440px;
+  left: 600px;
+}
+
+.wrapper {
+  height: 800px;
+}
+
+.rus-text {
+  font-size: 42px;
+  font-weight: 100;
+}
+
+.comparison__blocks {
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.comparison__left {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comparison__right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comparison__list-one {
+  margin-left: 40px;
+}
+
+.comparison__list-two {
+  margin-left: 20px;
+}
+
+.list__item-one {
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.list__item-two {
+  margin-left: 60px;
+  margin-bottom: 25px;
+}
+
+.comparison__text-one {
+  font-size: 45px;
+}
+
+.comparison__text-two {
+  font-size: 45px;
+}

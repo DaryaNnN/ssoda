@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SODA</title>
+    <link rel="stylesheet" href="static/styles/topstyle.css">
+    <link rel="stylesheet" href="static/styles/index.css">
+
+    <!--Иконки-->
+    <link rel="apple-touch-icon" sizes="180x180" href="static/files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="static/files/favicon_io/site.webmanifest">
+</head>
+
+<body id="body">
+    <div class="container">
+        <div class="vector_front">
+            <svg width="1658" height="1902" viewBox="0 0 1658 1902" fill="none" xmlns="http://www.w3.org/2000/svg" class="svgs">
+                <path id="line"
+                      d="M-2 706.464H1017.54V278.008H1121.1V635.271H958V560.194H1271.26V706.464H1196.18V155.037H1367.04V658.57H1232.42V437.223H1505.55V1H1657V1489M1657 1489H1025M1657 1489V1592M1657 1592H1137M1657 1592V1695M1657 1695H1056M1657 1695V1798.5M1657 1798.5H1178M1657 1798.5V1901H1183"
+                      stroke="white"/>
+            </svg><!--это вектор линии-->
+        </div>
+        <div class="vector_dei">
+            <svg width="1826" height="1456" viewBox="0 0 1826 1456" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="line_dei"
+                      d="M658.5 1455H187V880.5H406.5V1083.5H0.5V1H1837" stroke="white"/>
+            </svg>
+        </div>
+        <div class="vector_com">
+            <svg width="1796" height="1557" viewBox="0 0 1796 1557" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="line_com" d="M649.5 1556H380.5V1292H1V1375.5H59.5V0.5H1796" stroke="white"/>
+            </svg>
+    
+        </div>
+        <div class="vector_case">
+            <svg width="1831" height="1660" viewBox="0 0 1831 1660" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="line_case" d="M737.5 1659.5H359V1542.5H1V523.5H134.5V619.5H55V0.5H1830.5" stroke="white"/>
+            </svg>
+    
+        </div>
+        <div class="vector_req">
+            <svg width="1801" height="1766" viewBox="0 0 1801 1766" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="line_req"d="M738 1765H210V758.5H1V391.5H210V1H1800.5" stroke="white"/>
+            </svg>
+    
+    
+        </div>
+        <div class="vector_sp">
+            <svg width="1792" height="1864" viewBox="0 0 1792 1864" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="line_sp" d="M768 1863.5H301V1157H1V1207H261V1H1793" stroke="white"/>
+            </svg>
+    
+        </div>
+    </div>
+        <button id="slogan_90">think different</button>
+        <button id="startBtn">Frontend</button>
+        <button id="definition">Definition</button>
+        <button id="comparison">Comparison</button>
+        <button id="case">Cases</button>
+        <button id="request">Request</button>
+        <button id="sphere">Sphere</button>
+    
+        <script>
+            document.getElementById('startBtn').addEventListener("click",function (){
+                document.getElementById('line').style.animation="sign 8s ease"; //создает анимацию линии по нажатию
+                setTimeout(function (){
+                    document.getElementById('slogan_90').style.color='#FFFFFF'
+                },1900)
+                setTimeout(function (){
+                    window.scrollBy({
+                        top:1000, behavior:"smooth"
+                    })
+                },3170); //тут скролл страницы
+                setTimeout(function() {
+                    line.style.strokeDashoffset="0";
+                },3350); //тут короче линия пропадала после анимации, поэтому я сделал таймер и после окончания анимации заменял ее на обычный вектор
+                setTimeout(function (){
+                    document.getElementById('definition').style.color='#FFFFFF'
+                },4040)
+                setTimeout(function (){
+                    document.getElementById('comparison').style.color='#FFFFFF'
+                },4240)
+                setTimeout(function (){
+                    document.getElementById('case').style.color='#FFFFFF'
+                },4440)
+                setTimeout(function (){
+                    document.getElementById('request').style.color='#FFFFFF'
+                },4640)
+                setTimeout(function (){
+                    document.getElementById('sphere').style.color='#FFFFFF'
+                    document.getElementById('body').style.overflowY='scroll'
+                },4840)
+    
+            });
+        </script> <!--это скрипт линии-->
+        <script>
+            document.getElementById('definition').addEventListener("click", function (){
+                document.getElementById('line_dei').style.animation="sign 2s ease";
+                setTimeout(function (){
+                    window.scrollBy({
+                        top:-1000, behavior:"smooth"
+                    })
+                },150)
+                setTimeout(function (){
+                    /* document.body.style.backgroundColor='#FFFFFF' */
+                    setTimeout(function (){
+                        window.location="definition.html";//сюда вставлять линки на другие страницы
+                    },120)
+                },1600)
+            });
+            document.getElementById('comparison').addEventListener("click", function (){
+                document.getElementById('line_com').style.animation="sign 2s ease";
+                setTimeout(function (){
+                    window.scrollBy({
+                        top:-1000, behavior:"smooth"
+                    })
+                },150)
+                setTimeout(function (){
+                    /* document.body.style.backgroundColor='#FFFFFF' */
+                    setTimeout(function (){
+                        window.location="comparison.html";//сюда вставлять линки на другие страницы
+                    },120)
+                },1600)
+            });
+            document.getElementById('case').addEventListener("click", function (){
+                document.getElementById('line_case').style.animation="sign 2s ease";
+                setTimeout(function (){
+                    window.scrollBy({
+                        top:-1000, behavior:"smooth"
+                    })
+                },150)
+                setTimeout(function (){
+                    /* document.body.style.backgroundColor='#FFFFFF' */
+                    setTimeout(function (){
+                        window.location="cases.html";//сюда вставлять линки на другие страницы
+                    },120)
+                },1600)
+            });
+            document.getElementById('request').addEventListener("click", function (){
+                document.getElementById('line_req').style.animation="sign 2s ease";
+                setTimeout(function (){
+                    window.scrollBy({
+                        top:-1000, behavior:"smooth"
+                    })
+                },150)
+                setTimeout(function (){
+                    /* document.body.style.backgroundColor='#FFFFFF' */
+                    setTimeout(function (){
+                        window.location="requests.html";//сюда вставлять линки на другие страницы
+                    },120)
+                },1600)
+            });
+            document.getElementById('sphere').addEventListener("click", function (){
+                document.getElementById('line_sp').style.animation="sign 2s ease";
+                setTimeout(function (){
+                    window.scrollBy({
+                        top:-1000, behavior:"smooth"
+                    })
+                },200)
+                setTimeout(function (){
+                    /* document.body.style.backgroundColor='#FFFFFF' */
+                    setTimeout(function (){
+                        window.location="sphere.html";//сюда вставлять линки на другие страницы
+                    },120)
+                },1600)
+            });
+    
+        </script><!--это скрипт кнопок-->
+    </body>
+
+</html>
